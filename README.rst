@@ -4,7 +4,7 @@
 
 .. figure:: porthon.png
    :alt: SearXNG
-   :width: 50%
+   :width: 100%
    :align: center
 
 ----
