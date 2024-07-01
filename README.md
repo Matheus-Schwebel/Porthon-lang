@@ -1,6 +1,6 @@
 ![Imagem porthon](porthon.png)
 
-<div style="background-color: red">
+<div style="text-align: center">
     <h1>Porthon-lang</h1>
 
 </div>
