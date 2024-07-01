@@ -1,5 +1,3 @@
-![Imagem porthon](porthon.png)
-
 ----
 
 .. figure:: porthon.png
