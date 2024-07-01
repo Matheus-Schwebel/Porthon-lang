@@ -3,7 +3,8 @@
 ----
 
 .. figure:: porthon.png
-   :alt: SearXNG
+   :alt: Porthon
+   :color: red
    :width: 100%
    :align: center
 
