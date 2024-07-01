@@ -1,6 +1,6 @@
 ![Imagem porthon](porthon.png)
 # Porthon-lang
-A linguagem python agora em português.
+Porthon é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar.
 
 # Um Pedido
 
