@@ -1,13 +1,13 @@
 ![Imagem porthon](porthon.png)
 
 ----
+
+.. figure:: porthon.png
+   :alt: SearXNG
+   :width: 100%
    :align: center
+
 ----
-
-<div style="color: #FF0000">
-    <h1>Porthon-lang</h1>
-
-</div>
 
 Porthon é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar.
 # Um Pedido
