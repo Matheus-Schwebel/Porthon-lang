@@ -1,5 +1,9 @@
 ![Imagem porthon](porthon.png)
 
+----
+   :align: center
+----
+
 <div style="color: #FF0000">
     <h1>Porthon-lang</h1>
 
