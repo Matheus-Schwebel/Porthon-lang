@@ -1,11 +1,11 @@
 ![Imagem porthon](porthon.png)
 
-<div style="background-color: red; padding: 10px;">
+<div style="background-color: red">
     <h1>Porthon-lang</h1>
 
-    <p>Porthon é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar.</p>
 </div>
 
+Porthon é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar.
 # Um Pedido
 
 Por favor, quem ver este projeto, contribua:
