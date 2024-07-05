@@ -25,7 +25,7 @@ Por favor, quem ver este projeto, contribua:
 Exemplos
 --------
 
-Com a biblioteca **matematica**:
+Com a biblioteca **`matematica <http://exemplo.com/matematica>`__**
 
 .. code-block:: python
 
