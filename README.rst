@@ -10,7 +10,7 @@
 
 ----
 
-**Porthon** é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar. Ela é uma linguagem de programação brasileira, desenvolvida por um brasileiro, totalmente em português.
+**Porthon** é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar. Ela é uma linguagem de programação brasileira, desenvolvida por um brasileiro, e futuramente será totalmente em português.
 
 Um pedido
 =========
@@ -25,7 +25,7 @@ Por favor, quem ver este projeto, contribua:
 Exemplos
 --------
 
-Com a biblioteca **`matematica <http://exemplo.com/matematica>`__**
+Com a biblioteca `matematica <http://example.com/user-guide>`_.
 
 .. code-block:: python
 
