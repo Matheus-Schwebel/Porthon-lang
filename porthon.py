@@ -30,7 +30,6 @@ traducao_palavras_chave = {
     'de': 'from',
     'imprimir': 'print',
     'entrada': 'input',
-    '#:' : '#',
     '_principal_' : '__init__'
 }
 
@@ -56,7 +55,7 @@ def traduzir_codigo(codigo):
     
     # Traduzindo importações de bibliotecas
     for library, version in libraries.items():
-        codigo = re.sub(r'\b' + library + r'\b', f'import {library}', codigo)
+        codigo = re.sub(r'\b' + library + r'\b', f'libraries.{library}', codigo)
     
     return codigo
 
@@ -66,10 +65,6 @@ def executar_codigo(codigo, nome_traducao):
     
     with open(codigo_traduzido_path, "w", encoding="utf-8") as f:
         f.write(codigo_traduzido)
-    
-    if 'janelas' in codigo:
-        subprocess.run(['python', codigo_traduzido_path], shell=True)
-    else:
         subprocess.Popen(['start', 'cmd', '/k', f'python {codigo_traduzido_path}'], shell=True)
 
 def main():
@@ -87,12 +82,6 @@ def main():
         sys.exit(1)
 
     executar_codigo(codigo_portugues, nome_traducao=name_file)
-
-if __name__ == "__main__":
-    main()
-
-
-    subprocess.Popen(['start', 'cmd', '/k', 'python codigo_traduzido.py'], shell=True)
 
 if __name__ == "__main__":
     main()
