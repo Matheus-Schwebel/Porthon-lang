@@ -1,5 +1,0 @@
-de tkinter importar *
-
-classe Janela:
-    func _principal_ (programa):
-        retornar Tk()
