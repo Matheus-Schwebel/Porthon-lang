@@ -25,10 +25,33 @@ Por favor, quem ver este projeto, contribua:
 Exemplos
 --------
 
+Com a biblioteca **matematica**:
+
 .. code-block:: python
 
-    importar janelas
+   de matematica importar *
 
-    root = janelas.Janela()
+   a = 90
 
-    root.mainloop()
+   b = 80
+
+   b_divisao = 3
+
+   calcsoma = soma(a, b)
+
+   print(calcsoma)
+
+   calcsubtrai = subtrair(a, b)
+
+   print(calcsubtrai)
+
+   calcmultip = multiplicar(a, b)
+
+   print(calcmultip)
+
+   calcdiv = dividir(a, b_divisao)
+
+   print(calcdiv)
+
+   print(pi)
+
