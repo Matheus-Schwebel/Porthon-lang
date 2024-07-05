@@ -1,6 +1,7 @@
 import re
 import sys
 import subprocess
+import os
 
 # Dicionário de tradução
 traducao_palavras_chave = {
@@ -29,26 +30,47 @@ traducao_palavras_chave = {
     'de': 'from',
     'imprimir': 'print',
     'entrada': 'input',
-    'janelas': 'tkinter',
-    'principal': 'mainloop',
-    'titulo': 'title',
-    '#:' : '#'
+    '#:' : '#',
+    '_principal_' : '__init__'
 }
 
+libraries = {}
+
+def carregar_libraries():
+    try:
+        with open('libraries.DATAPTPY', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    library, version = line.split('>')
+                    libraries[library.strip()] = version.strip()
+            
+    except FileNotFoundError:
+        print("Arquivo libraries.DATAPTPY não encontrado. As bibliotecas serão traduzidas por padrão.")
+
 def traduzir_codigo(codigo):
+    carregar_libraries()
+    # Traduzindo palavras-chave
     for palavra_pt, palavra_en in traducao_palavras_chave.items():
         codigo = re.sub(r'\b' + palavra_pt + r'\b', palavra_en, codigo)
+    
+    # Traduzindo importações de bibliotecas
+    for library, version in libraries.items():
+        codigo = re.sub(r'\b' + library + r'\b', f'import {library}', codigo)
+    
     return codigo
 
-def executar_codigo(codigo):
+def executar_codigo(codigo, nome_traducao):
     codigo_traduzido = traduzir_codigo(codigo)
-    with open("codigo_traduzido.py", "w", encoding="utf-8") as f:
+    codigo_traduzido_path = nome_traducao.replace(".ptpy", ".py")
+    
+    with open(codigo_traduzido_path, "w", encoding="utf-8") as f:
         f.write(codigo_traduzido)
     
     if 'janelas' in codigo:
-        subprocess.run(['python', 'codigo_traduzido.py'], shell=True)
+        subprocess.run(['python', codigo_traduzido_path], shell=True)
     else:
-        subprocess.run(['start', 'cmd', '/k', 'python codigo_traduzido.py'], shell=True)
+        subprocess.Popen(['start', 'cmd', '/k', f'python {codigo_traduzido_path}'], shell=True)
 
 def main():
     if len(sys.argv) < 2:
@@ -64,10 +86,11 @@ def main():
         print(f"Arquivo {name_file} não encontrado.")
         sys.exit(1)
 
-    codigo_traduzido = traduzir_codigo(codigo_portugues)
+    executar_codigo(codigo_portugues, nome_traducao=name_file)
 
-    with open("codigo_traduzido.py", "w", encoding="utf-8") as f:
-        f.write(codigo_traduzido)
+if __name__ == "__main__":
+    main()
+
 
     subprocess.Popen(['start', 'cmd', '/k', 'python codigo_traduzido.py'], shell=True)
 
