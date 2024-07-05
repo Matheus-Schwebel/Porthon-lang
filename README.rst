@@ -21,3 +21,14 @@ Por favor, quem ver este projeto, contribua:
 - Editando arquivos
 
 **Muito obrigado!**
+
+Exemplos
+--------
+
+´´´
+importar janelas
+
+root = janelas.Janela()
+
+root.mainloop()
+´´´
