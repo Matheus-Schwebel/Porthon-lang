@@ -25,10 +25,10 @@ Por favor, quem ver este projeto, contribua:
 Exemplos
 --------
 
-.. code-block:: porthon
-   importar janelas
+.. code-block:: python
 
-   root = janelas.Janela()
+    importar janelas
 
-   root.mainloop()
+    root = janelas.Janela()
 
+    root.mainloop()
