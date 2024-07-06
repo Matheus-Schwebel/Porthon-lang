@@ -12,7 +12,6 @@
 
 **Porthon** é uma linguagem que foi criada com o propósito de aprendizagem. Ela ajudará muitos pequenos programadores a começar a programar. Ela é uma linguagem de programação brasileira, desenvolvida por um brasileiro, e futuramente será totalmente em português.
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Um pedido
 ---------
