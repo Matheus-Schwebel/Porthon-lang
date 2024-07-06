@@ -28,7 +28,7 @@ ________________________________________________________________________________
 Bibliotecas
 ===========
 
-Ver `Bibliotecas Porthon <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_
+Ver `Bibliotecas Porthon no GitHub <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_
 
 Exemplos
 --------
