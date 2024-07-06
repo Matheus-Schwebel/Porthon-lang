@@ -42,7 +42,7 @@ Exemplos
 
 Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/matematica>`_:
 
-.. code-block:: porthon
+.. code-block:: python
 
    de matematica importar *
 
@@ -72,7 +72,7 @@ Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-po
 
 Com a biblioteca `sistema <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/sistema>`_:
 
-..  code-block:: porthon
+..  code-block:: python
 
    de sistema importar *
 
