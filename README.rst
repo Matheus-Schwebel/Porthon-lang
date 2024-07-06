@@ -25,6 +25,11 @@ Por favor, quem ver este projeto, contribua:
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+Bibliotecas
+===========
+
+Ver `Bibliotecas Porthon no GitHub <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`
+
 Exemplos
 --------
 
