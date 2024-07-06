@@ -25,7 +25,7 @@ Por favor, quem ver este projeto, contribua:
 Exemplos
 --------
 
-Com a biblioteca `matematica <http://example.com/user-guide>`_.
+Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_.
 
 .. code-block:: python
 
