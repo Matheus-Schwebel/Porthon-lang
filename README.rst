@@ -30,9 +30,7 @@ Como usar?
 
 Execute o main.py juntamente com o nome do projeto:
 
-```
-py main.py <arquivo>.ptpy
-```
+``py main.py <arquivo>.ptpy``
 
 Bibliotecas
 ===========
