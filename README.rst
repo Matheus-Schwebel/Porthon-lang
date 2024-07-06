@@ -40,9 +40,9 @@ Ver `Bibliotecas Porthon <https://github.com/Matheus-Schwebel/bibliotecas-portho
 Exemplos
 --------
 
-Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/matematica>`_.
+Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/matematica>`_:
 
-.. code-block:: python
+.. code-block:: porthon
 
    de matematica importar *
 
@@ -54,19 +54,36 @@ Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-po
 
    calcsoma = soma(a, b)
 
-   print(calcsoma)
+   imprimir(calcsoma)
 
    calcsubtrai = subtrair(a, b)
 
-   print(calcsubtrai)
+   imprimir(calcsubtrai)
 
    calcmultip = multiplicar(a, b)
 
-   print(calcmultip)
+   imprimir(calcmultip)
 
    calcdiv = dividir(a, b_divisao)
 
-   print(calcdiv)
+   imprimir(calcdiv)
 
-   print(pi)
+   imprimir(pi)
 
+Com a biblioteca `sistema <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/sistema>`_:
+
+..  code-block:: porthon
+
+   de sistema importar *
+
+   imprimir(listar_argumentos())
+
+   imprimir(nome_sistema_operacional())
+
+   lista = listar_arquivos()
+
+   imprimir(lista)
+
+   criar_diretorio("teste")
+
+   remover_arquivo("remover.txt")
