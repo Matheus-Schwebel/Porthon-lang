@@ -35,7 +35,7 @@ Execute o main.py juntamente com o nome do projeto:
 Bibliotecas
 ===========
 
-Ver `Bibliotecas Porthon no GitHub <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_
+Ver `Bibliotecas Porthon <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_, no GitHub
 
 Exemplos
 --------
