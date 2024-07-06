@@ -30,7 +30,9 @@ traducao_palavras_chave = {
     'de': 'from',
     'imprimir': 'print',
     'entrada': 'input',
-    '_principal_' : '__init__'
+    '_principal_' : '__init__',
+    'imprimir': 'print',
+    'entrada': 'input'
 }
 
 libraries = {}
