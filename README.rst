@@ -35,12 +35,12 @@ Execute o main.py juntamente com o nome do projeto:
 Bibliotecas
 ===========
 
-Ver `Bibliotecas Porthon <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/matematica>`_, no GitHub
+Ver `Bibliotecas Porthon <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_, no GitHub
 
 Exemplos
 --------
 
-Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-porthon/>`_.
+Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/matematica>`_.
 
 .. code-block:: python
 
