@@ -88,6 +88,8 @@ Com a biblioteca `sistema <https://github.com/Matheus-Schwebel/bibliotecas-porth
 
    remover_arquivo("remover.txt")
 
+Com a biblioteca `mapas <https://github.com/Matheus-Schwebel/bibliotecas-porthon/tree/main/mapas>`_:
+
 .. code-block:: python
 
    # meu_mapa.ptpy
