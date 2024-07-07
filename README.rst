@@ -87,3 +87,17 @@ Com a biblioteca `sistema <https://github.com/Matheus-Schwebel/bibliotecas-porth
    criar_diretorio("teste")
 
    remover_arquivo("remover.txt")
+
+.. code-block:: python
+
+   # meu_mapa.ptpy
+
+   importar mapas
+
+   # Criar um mapa centrado em São Francisco
+   mapa = mapas.criar_mapa(-23.5505, -46.6333)
+
+   # Adicionar marcador para São Francisco no mapa
+   mapas.adicionar_marcador(mapa, -23.5505, -46.6333, 'São Paulo')
+
+   mapas.salvar(mapa, arquivo_html="mapa.html")
