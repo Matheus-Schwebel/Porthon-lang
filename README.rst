@@ -99,10 +99,10 @@ Com a biblioteca `mapas <https://github.com/Matheus-Schwebel/bibliotecas-porthon
 
    importar mapas
 
-   # Criar um mapa centrado em São Francisco
+   # Criar um mapa centrado em São Paulo
    mapa = mapas.criar_mapa(-23.5505, -46.6333)
 
-   # Adicionar marcador para São Francisco no mapa
+   # Adicionar marcador para São Paulo no mapa
    mapas.adicionar_marcador(mapa, -23.5505, -46.6333, 'São Paulo')
 
    mapas.salvar(mapa, arquivo_html="mapa.html")
