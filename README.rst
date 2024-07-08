@@ -77,6 +77,8 @@ Com a biblioteca `sistema <https://github.com/Matheus-Schwebel/bibliotecas-porth
 
    de sistema importar *
 
+   # Imprimir também é uma função da biblioteca sistema
+
    imprimir(listar_argumentos())
 
    imprimir(nome_sistema_operacional())
