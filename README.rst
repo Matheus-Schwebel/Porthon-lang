@@ -45,6 +45,7 @@ Com a biblioteca `matematica <https://github.com/Matheus-Schwebel/bibliotecas-po
 .. code-block:: python
 
    de matematica importar *
+   de sistema importar *
 
    a = 90
 
