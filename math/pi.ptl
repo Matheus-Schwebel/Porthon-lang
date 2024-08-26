@@ -1,0 +1,5 @@
+func pi():
+    PI = 3.141592653589793
+    retornar PI
+
+pi = pi()
